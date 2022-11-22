@@ -19,7 +19,7 @@ print(type(t)) #<class 'tuple'>
 
 #方式二 内置函数 tuple()
 t=tuple(('hello1','world1','98'))
-print(t)
+print(t[1:3])
 
 #空元组创建
 t=()

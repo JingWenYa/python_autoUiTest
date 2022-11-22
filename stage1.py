@@ -23,6 +23,7 @@ float1=10.2
 bool1=True
 print(type(int1),type(float1),type(bool1))
 print(type(str(int1)),type(str(float1)),type(str(bool1))) #整型、浮点型、布尔型均可转为字符型
+print(str(bool1)) #True
 
 print('--int()将其他类型转为int类型--')
 str1='12'
@@ -32,7 +33,7 @@ float2=13.4
 bool1=False
 print(type(str1),int(str1)) #12 --将str类型转为int型 str类型需为整数的字符串
 #print(type(str2),int(str2)) #报错 str2不是整数的字符串
-#print(type(str3),int(str3)) #报错 str2不是整数的字符串
+#print(type(str3),int(str3)) #报错 str3不是整数的字符串
 print(type(float2),int(float2)) #13 --将float类型转为int型  会截取float的小数部分
 print(type(bool1),int(bool1)) #0 --将boolean类型转为int型 对应1和0
 

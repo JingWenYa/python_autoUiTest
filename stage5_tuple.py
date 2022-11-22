@@ -23,7 +23,7 @@ print(t)
 
 #空元组创建
 t=()
-print(t)
+print(t,type(t)) #() <class 'tuple'>
 t=tuple() #()
 print(t) #()
 
@@ -54,7 +54,7 @@ t=('hello','world','98')
 print(t[0])
 print(t[1])
 print(t[2])
-print(t[3]) #报错 数据越界
+#print(t[3]) #报错 数据越界
 
 #第二种方式 for循环
 for item in t:

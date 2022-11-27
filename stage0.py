@@ -15,8 +15,8 @@ print('hello','word','python')
 #换行
 print('hello\nworld') # \n = newline
 #制表符
-print('hello\tworld')
-print('hellooo\tworld') #t=tab
+print('hello\tworld') #hello	world
+print('hellooo\tworld') #hellooo world
 #退格符
 print('hello\bworld')#将上一个字符覆盖 b=back
 #回车符

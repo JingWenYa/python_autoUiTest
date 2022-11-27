@@ -147,6 +147,7 @@ print('hello'.isidentifier())  # True
 print('张三_'.isidentifier())  # True
 print('张三_123'.isidentifier())  # True
 
+
 # isspace() 判断指定字符串是不是全由空白字符组成(回车、换行、水平制表)
 print('\t'.isspace())  # True
 

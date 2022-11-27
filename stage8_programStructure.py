@@ -4,6 +4,7 @@ print(bool(False)) #False
 print(bool(0)) #False
 print(bool(None)) #False
 print(bool('')) #False
+print(bool(' '))#True
 print(bool([])) #False
 print(bool(list())) #False
 print(bool(())) #False
@@ -15,6 +16,7 @@ print(bool(set())) #False
 
 print(bool('123')) #True
 print(bool(True)) #True
+
 
 #用处
 age=int(input("请输入年龄："))

@@ -49,5 +49,84 @@ print(calc2.add(1,5))  #6
 
 
 
+print('----------------------------------------------常用的内置模块-------------------------------------------')
+'''
+sys：与python解释器及其环境操作相关的标准库
+time：提供与时间相关的各种函数的标准库
+os：提供了访问操作系统服务功能的标准库
+calendar：提供与日期相关的各种函数的标准库
+urllib：用于读取来自网上（服务器）的数据标准库
+json：用于使用json序列化和反序列化对象
+re：用于在字符串中执行正则表达式匹配和替换
+math：提供标准算数运算函数的标准库
+decimal：用于进行精确控制运算精度、有效数位和四舍五入操作的十进制运算
+logging：提供了灵活的记录事件、错误、警告和调试信息等日志信息功能
+random: 随机生成数字
+'''
+
+import sys
+print(sys.getsizeof(48))    #28字节
+print(sys.getsizeof(True))  #28字节
+print(sys.getsizeof(False)) #24字节
+
+import time
+print(time.time())          #当前秒 1669895465.2481675
+print(time.localtime())     #将秒转为具体的时间 tm_year=2022, tm_mon=12, tm_mday=1, tm_hour=19, tm_min=51, tm_sec=5, tm_wday=3, tm_yday=335, tm_isdst=0
+
+import os
+print(os.name)
+
+import  urllib.request
+print(urllib.request.urlopen('http://www.baidu.com/').read())
+
+import random
+print(random.random())  #0.8029786605615116 随机生成0到1之间的小数
+print(random.randint(1,3))  #1 随机生成0到3之间的整数
+
+
+
+
+print('------------------------------------------------第三方模块的安装和使用------------------------------------------')
+'''
+在win+r界面操作如下步骤：
+pip install 模块名
+输入python进入交互式应用程序 输入import 模块名  不报错即代表安装成功
+
+第三方模块的安装：pip install 模块名
+第三方模块的使用：import 模块名
+'''
+
+#pymysql
+import pymysql
+
+#request
+import requests
+
+
+
+
+
+
+# import schedule
+# def job():
+#     print('开开心心每一天')
+#
+# schedule.every(3).seconds.do(job)
+# while True:
+#     schedule.run_pending()
+#     time.sleep(1)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

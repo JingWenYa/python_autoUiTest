@@ -6,4 +6,3 @@ def div(a,b):
 
 if __name__ =='__main__':      #只有运行当前文件时 才会被执行
     print(add(100,200))
-

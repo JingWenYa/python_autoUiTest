@@ -8,6 +8,15 @@ print('-----------------------------------------------包的概念--------------
 设置为包：文件->右键->新建->python软件包
 设置为目录：文件->右键->新建->目录
 '''
+
+
+
+print('-----------------------------------------------导入-----------------------------------------')
+'''
+使用import方式导入 后面只能跟包名 或模块名
+使用from方式导入 后面可以跟包 模块名 函数名 变量名
+'''
+#import
 import package.module_A
 print(package.module_A.a)
 
@@ -16,8 +25,11 @@ import package.module_A as ma       #ma为别名
 print(ma.a)
 
 
-print('-----------------------------------------------导入-----------------------------------------')
-'''
-使用import方式导入 后面只能跟包名 或模块名
-使用from方式导入 后面可以跟包 模块名 函数名 变量名
-'''
+#from
+#模块
+from package import module_A
+from package.module_A import a
+from calc2 import add
+from math import pi
+from math import *
+
